@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d567ff6e-00f9-4a63-9f36-3845f972a0cc" name="hchadwic@RM202-005909 2015-09-21 15:31:02" runUser="PETERBOROUGH\hchadwic" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d93173cd-135a-4d16-8a4a-102987048ab6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="hchadwic_RM202-005909 2015-09-21 15_31_02">
+      <DeploymentItem filename="C:\Development\LockMonitorApplication\packages\Moq.4.2.1507.0118\lib\net40\Moq.dll" />
+      <DeploymentItem filename="C:\Development\LockMonitorApplication\LockMonitorApplication\bin\Debug\LockMonitorApplication.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-09-21T15:31:02.0758995+01:00" queuing="2015-09-21T15:31:02.1178995+01:00" start="2015-09-21T15:31:02.1208995+01:00" finish="2015-09-21T15:31:02.3528995+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="10" executed="10" passed="10" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LockDataSetCorrectly" storage="c:\development\lockmonitorapplication\testlockmonitor\bin\debug\testlockmonitor.dll" id="1cd52872-dd42-9e15-6469-12b33a98b8a4">
+      <Execution id="8c94a5d6-503f-4966-be3b-5a53d7f908ea" />
+      <TestMethod codeBase="C:/Development/LockMonitorApplication/TestLockMonitor/bin/Debug/TestLockMonitor.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LockMonitorTest.TestLockData, TestLockMonitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LockDataSetCorrectly" />
+    </UnitTest>
+    <UnitTest name="LockDataCreatedCorrectly" storage="c:\development\lockmonitorapplication\testlockmonitor\bin\debug\testlockmonitor.dll" id="36c4ab00-7fb7-bcc8-2846-ff4d0ed4fdc1">
+      <Execution id="3e7615e0-585e-4856-93b2-e99aa972242d" />
+      <TestMethod codeBase="C:/Development/LockMonitorApplication/TestLockMonitor/bin/Debug/TestLockMonitor.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LockMonitorTest.TestLockData, TestLockMonitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LockDataCreatedCorrectly" />
+    </UnitTest>
+    <UnitTest name="alarmTesterGoodCreation" storage="c:\development\lockmonitorapplication\testlockmonitor\bin\debug\testlockmonitor.dll" id="ad6daafd-666b-f931-bd88-01f6da592743">
+      <Execution id="74da8556-bfec-4d54-bff1-527dd20bde44" />
+      <TestMethod codeBase="C:/Development/LockMonitorApplication/TestLockMonitor/bin/Debug/TestLockMonitor.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LockMonitorTest.TestAlarmTester, TestLockMonitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="alarmTesterGoodCreation" />
+    </UnitTest>
+    <UnitTest name="NoEventsCalled" storage="c:\development\lockmonitorapplication\testlockmonitor\bin\debug\testlockmonitor.dll" id="5e96d96a-a700-dd52-b892-bbd7a58b1925">
+      <Execution id="fa3f7fd7-65b2-412c-bb08-a731ae66664f" />
+      <TestMethod codeBase="C:/Development/LockMonitorApplication/TestLockMonitor/bin/Debug/TestLockMonitor.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestMethodPMS.TestLockAlarmer, TestLockMonitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NoEventsCalled" />
+    </UnitTest>
+    <UnitTest name="GoodUnconnectedCreation" storage="c:\development\lockmonitorapplication\testlockmonitor\bin\debug\testlockmonitor.dll" id="b5d08364-6d0f-e27e-49f1-d2ba9890e62f">
+      <Execution id="fbf9ae12-b01c-4e13-b44f-14764a18590a" />
+      <TestMethod codeBase="C:/Development/LockMonitorApplication/TestLockMonitor/bin/Debug/TestLockMonitor.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LockMonitorTest.TestLockDataReader, TestLockMonitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GoodUnconnectedCreation" />
+    </UnitTest>
+    <UnitTest name="OutsideLimits" storage="c:\development\lockmonitorapplication\testlockmonitor\bin\debug\testlockmonitor.dll" id="f2934c46-4261-cc8a-aa76-48d433869920">
+      <Execution id="db05f592-1b70-45f8-b99f-edd157104702" />
+      <TestMethod codeBase="C:/Development/LockMonitorApplication/TestLockMonitor/bin/Debug/TestLockMonitor.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LockMonitorTest.TestAlarmTester, TestLockMonitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OutsideLimits" />
+    </UnitTest>
+    <UnitTest name="BadUnconnectedFileName" storage="c:\development\lockmonitorapplication\testlockmonitor\bin\debug\testlockmonitor.dll" id="8e991c5a-6cd5-5579-8458-b7d0a59ae312">
+      <Execution id="775b259f-770a-40a3-a740-a146348621d3" />
+      <TestMethod codeBase="C:/Development/LockMonitorApplication/TestLockMonitor/bin/Debug/TestLockMonitor.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LockMonitorTest.TestLockDataReader, TestLockMonitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BadUnconnectedFileName" />
+    </UnitTest>
+    <UnitTest name="alarmInLimits" storage="c:\development\lockmonitorapplication\testlockmonitor\bin\debug\testlockmonitor.dll" id="ca3d881e-3962-5e52-596b-35c621b0bb85">
+      <Execution id="3733a21e-44a5-48a0-9eec-052a0d52ff1c" />
+      <TestMethod codeBase="C:/Development/LockMonitorApplication/TestLockMonitor/bin/Debug/TestLockMonitor.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LockMonitorTest.TestAlarmTester, TestLockMonitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="alarmInLimits" />
+    </UnitTest>
+    <UnitTest name="GoodCreation" storage="c:\development\lockmonitorapplication\testlockmonitor\bin\debug\testlockmonitor.dll" id="35ace910-8025-99a9-8947-1c3d75d0ca8a">
+      <Execution id="046a572d-b6ba-4cb8-9c83-607e3e23afc4" />
+      <TestMethod codeBase="C:/Development/LockMonitorApplication/TestLockMonitor/bin/Debug/TestLockMonitor.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LockMonitorTest.TestLockDataReader, TestLockMonitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GoodCreation" />
+    </UnitTest>
+    <UnitTest name="BadFileName" storage="c:\development\lockmonitorapplication\testlockmonitor\bin\debug\testlockmonitor.dll" id="8d1d64f4-6f31-a099-4dbf-b5d74744bf0f">
+      <Execution id="6ef1516c-e385-4a67-80a3-f843916573da" />
+      <TestMethod codeBase="C:/Development/LockMonitorApplication/TestLockMonitor/bin/Debug/TestLockMonitor.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LockMonitorTest.TestLockDataReader, TestLockMonitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BadFileName" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1cd52872-dd42-9e15-6469-12b33a98b8a4" executionId="8c94a5d6-503f-4966-be3b-5a53d7f908ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35ace910-8025-99a9-8947-1c3d75d0ca8a" executionId="046a572d-b6ba-4cb8-9c83-607e3e23afc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36c4ab00-7fb7-bcc8-2846-ff4d0ed4fdc1" executionId="3e7615e0-585e-4856-93b2-e99aa972242d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e96d96a-a700-dd52-b892-bbd7a58b1925" executionId="fa3f7fd7-65b2-412c-bb08-a731ae66664f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d1d64f4-6f31-a099-4dbf-b5d74744bf0f" executionId="6ef1516c-e385-4a67-80a3-f843916573da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e991c5a-6cd5-5579-8458-b7d0a59ae312" executionId="775b259f-770a-40a3-a740-a146348621d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad6daafd-666b-f931-bd88-01f6da592743" executionId="74da8556-bfec-4d54-bff1-527dd20bde44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5d08364-6d0f-e27e-49f1-d2ba9890e62f" executionId="fbf9ae12-b01c-4e13-b44f-14764a18590a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca3d881e-3962-5e52-596b-35c621b0bb85" executionId="3733a21e-44a5-48a0-9eec-052a0d52ff1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2934c46-4261-cc8a-aa76-48d433869920" executionId="db05f592-1b70-45f8-b99f-edd157104702" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8c94a5d6-503f-4966-be3b-5a53d7f908ea" testId="1cd52872-dd42-9e15-6469-12b33a98b8a4" testName="LockDataSetCorrectly" computerName="RM202-005909" duration="00:00:00.0081504" startTime="2015-09-21T15:31:02.1218995+01:00" endTime="2015-09-21T15:31:02.2368995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c94a5d6-503f-4966-be3b-5a53d7f908ea">
+    </UnitTestResult>
+    <UnitTestResult executionId="046a572d-b6ba-4cb8-9c83-607e3e23afc4" testId="35ace910-8025-99a9-8947-1c3d75d0ca8a" testName="GoodCreation" computerName="RM202-005909" duration="00:00:00.0004233" startTime="2015-09-21T15:31:02.2378995+01:00" endTime="2015-09-21T15:31:02.2388995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="046a572d-b6ba-4cb8-9c83-607e3e23afc4">
+    </UnitTestResult>
+    <UnitTestResult executionId="3e7615e0-585e-4856-93b2-e99aa972242d" testId="36c4ab00-7fb7-bcc8-2846-ff4d0ed4fdc1" testName="LockDataCreatedCorrectly" computerName="RM202-005909" duration="00:00:00.0001282" startTime="2015-09-21T15:31:02.2398995+01:00" endTime="2015-09-21T15:31:02.2408995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e7615e0-585e-4856-93b2-e99aa972242d">
+    </UnitTestResult>
+    <UnitTestResult executionId="fa3f7fd7-65b2-412c-bb08-a731ae66664f" testId="5e96d96a-a700-dd52-b892-bbd7a58b1925" testName="NoEventsCalled" computerName="RM202-005909" duration="00:00:00.0895764" startTime="2015-09-21T15:31:02.2418995+01:00" endTime="2015-09-21T15:31:02.3328995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa3f7fd7-65b2-412c-bb08-a731ae66664f">
+    </UnitTestResult>
+    <UnitTestResult executionId="6ef1516c-e385-4a67-80a3-f843916573da" testId="8d1d64f4-6f31-a099-4dbf-b5d74744bf0f" testName="BadFileName" computerName="RM202-005909" duration="00:00:00.0014089" startTime="2015-09-21T15:31:02.3328995+01:00" endTime="2015-09-21T15:31:02.3358995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ef1516c-e385-4a67-80a3-f843916573da">
+    </UnitTestResult>
+    <UnitTestResult executionId="775b259f-770a-40a3-a740-a146348621d3" testId="8e991c5a-6cd5-5579-8458-b7d0a59ae312" testName="BadUnconnectedFileName" computerName="RM202-005909" duration="00:00:00.0003914" startTime="2015-09-21T15:31:02.3368995+01:00" endTime="2015-09-21T15:31:02.3378995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="775b259f-770a-40a3-a740-a146348621d3">
+    </UnitTestResult>
+    <UnitTestResult executionId="74da8556-bfec-4d54-bff1-527dd20bde44" testId="ad6daafd-666b-f931-bd88-01f6da592743" testName="alarmTesterGoodCreation" computerName="RM202-005909" duration="00:00:00.0002380" startTime="2015-09-21T15:31:02.3388995+01:00" endTime="2015-09-21T15:31:02.3398995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74da8556-bfec-4d54-bff1-527dd20bde44">
+    </UnitTestResult>
+    <UnitTestResult executionId="fbf9ae12-b01c-4e13-b44f-14764a18590a" testId="b5d08364-6d0f-e27e-49f1-d2ba9890e62f" testName="GoodUnconnectedCreation" computerName="RM202-005909" duration="00:00:00.0002286" startTime="2015-09-21T15:31:02.3408995+01:00" endTime="2015-09-21T15:31:02.3418995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fbf9ae12-b01c-4e13-b44f-14764a18590a">
+    </UnitTestResult>
+    <UnitTestResult executionId="3733a21e-44a5-48a0-9eec-052a0d52ff1c" testId="ca3d881e-3962-5e52-596b-35c621b0bb85" testName="alarmInLimits" computerName="RM202-005909" duration="00:00:00.0000903" startTime="2015-09-21T15:31:02.3418995+01:00" endTime="2015-09-21T15:31:02.3438995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3733a21e-44a5-48a0-9eec-052a0d52ff1c">
+    </UnitTestResult>
+    <UnitTestResult executionId="db05f592-1b70-45f8-b99f-edd157104702" testId="f2934c46-4261-cc8a-aa76-48d433869920" testName="OutsideLimits" computerName="RM202-005909" duration="00:00:00.0000812" startTime="2015-09-21T15:31:02.3438995+01:00" endTime="2015-09-21T15:31:02.3448995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db05f592-1b70-45f8-b99f-edd157104702">
+    </UnitTestResult>
+  </Results>
+</TestRun>

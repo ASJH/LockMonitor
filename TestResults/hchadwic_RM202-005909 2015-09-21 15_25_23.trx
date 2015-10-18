@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="48f28d52-8c58-4141-b39e-699474cbb32e" name="hchadwic@RM202-005909 2015-09-21 15:25:23" runUser="PETERBOROUGH\hchadwic" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d93173cd-135a-4d16-8a4a-102987048ab6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="hchadwic_RM202-005909 2015-09-21 15_25_23">
+      <DeploymentItem filename="C:\Development\LockMonitorApplication\packages\Moq.4.2.1507.0118\lib\net40\Moq.dll" />
+      <DeploymentItem filename="C:\Development\LockMonitorApplication\LockMonitorApplication\bin\Debug\LockMonitorApplication.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-09-21T15:25:23.8988995+01:00" queuing="2015-09-21T15:25:24.4598995+01:00" start="2015-09-21T15:25:24.4848995+01:00" finish="2015-09-21T15:25:24.8858995+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="10" executed="10" passed="8" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LockDataSetCorrectly" storage="c:\development\lockmonitorapplication\testlockmonitor\bin\debug\testlockmonitor.dll" id="1cd52872-dd42-9e15-6469-12b33a98b8a4">
+      <Execution id="5dd9c28c-b85d-4f7b-a031-0c1dccb33d3c" />
+      <TestMethod codeBase="C:/Development/LockMonitorApplication/TestLockMonitor/bin/Debug/TestLockMonitor.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LockMonitorTest.TestLockData, TestLockMonitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LockDataSetCorrectly" />
+    </UnitTest>
+    <UnitTest name="LockDataCreatedCorrectly" storage="c:\development\lockmonitorapplication\testlockmonitor\bin\debug\testlockmonitor.dll" id="36c4ab00-7fb7-bcc8-2846-ff4d0ed4fdc1">
+      <Execution id="f3aa3810-25e8-41dd-b608-ef2e0ed55011" />
+      <TestMethod codeBase="C:/Development/LockMonitorApplication/TestLockMonitor/bin/Debug/TestLockMonitor.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LockMonitorTest.TestLockData, TestLockMonitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LockDataCreatedCorrectly" />
+    </UnitTest>
+    <UnitTest name="alarmTesterGoodCreation" storage="c:\development\lockmonitorapplication\testlockmonitor\bin\debug\testlockmonitor.dll" id="ad6daafd-666b-f931-bd88-01f6da592743">
+      <Execution id="99384135-b939-4052-be35-8dbd22ceb96b" />
+      <TestMethod codeBase="C:/Development/LockMonitorApplication/TestLockMonitor/bin/Debug/TestLockMonitor.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LockMonitorTest.TestAlarmTester, TestLockMonitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="alarmTesterGoodCreation" />
+    </UnitTest>
+    <UnitTest name="NoEventsCalled" storage="c:\development\lockmonitorapplication\testlockmonitor\bin\debug\testlockmonitor.dll" id="5e96d96a-a700-dd52-b892-bbd7a58b1925">
+      <Execution id="1818d27f-1eb4-40f7-8805-72d1b5aabef5" />
+      <TestMethod codeBase="C:/Development/LockMonitorApplication/TestLockMonitor/bin/Debug/TestLockMonitor.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestMethodPMS.TestLockAlarmer, TestLockMonitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NoEventsCalled" />
+    </UnitTest>
+    <UnitTest name="GoodUnconnectedCreation" storage="c:\development\lockmonitorapplication\testlockmonitor\bin\debug\testlockmonitor.dll" id="b5d08364-6d0f-e27e-49f1-d2ba9890e62f">
+      <Execution id="19205791-06cc-4790-b650-96ba2c88c6ea" />
+      <TestMethod codeBase="C:/Development/LockMonitorApplication/TestLockMonitor/bin/Debug/TestLockMonitor.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LockMonitorTest.TestLockDataReader, TestLockMonitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GoodUnconnectedCreation" />
+    </UnitTest>
+    <UnitTest name="OutsideLimits" storage="c:\development\lockmonitorapplication\testlockmonitor\bin\debug\testlockmonitor.dll" id="f2934c46-4261-cc8a-aa76-48d433869920">
+      <Execution id="827804de-6240-4f5f-b99c-61b56a999e07" />
+      <TestMethod codeBase="C:/Development/LockMonitorApplication/TestLockMonitor/bin/Debug/TestLockMonitor.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LockMonitorTest.TestAlarmTester, TestLockMonitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OutsideLimits" />
+    </UnitTest>
+    <UnitTest name="BadUnconnectedFileName" storage="c:\development\lockmonitorapplication\testlockmonitor\bin\debug\testlockmonitor.dll" id="8e991c5a-6cd5-5579-8458-b7d0a59ae312">
+      <Execution id="dae537b8-c9df-467f-b075-3ec82347613f" />
+      <TestMethod codeBase="C:/Development/LockMonitorApplication/TestLockMonitor/bin/Debug/TestLockMonitor.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LockMonitorTest.TestLockDataReader, TestLockMonitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BadUnconnectedFileName" />
+    </UnitTest>
+    <UnitTest name="alarmInLimits" storage="c:\development\lockmonitorapplication\testlockmonitor\bin\debug\testlockmonitor.dll" id="ca3d881e-3962-5e52-596b-35c621b0bb85">
+      <Execution id="1ff2fe4d-0f8c-4af8-8788-f6ba02e1183f" />
+      <TestMethod codeBase="C:/Development/LockMonitorApplication/TestLockMonitor/bin/Debug/TestLockMonitor.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LockMonitorTest.TestAlarmTester, TestLockMonitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="alarmInLimits" />
+    </UnitTest>
+    <UnitTest name="GoodCreation" storage="c:\development\lockmonitorapplication\testlockmonitor\bin\debug\testlockmonitor.dll" id="35ace910-8025-99a9-8947-1c3d75d0ca8a">
+      <Execution id="b3845794-f5b9-4f08-ad56-3669f4dd8419" />
+      <TestMethod codeBase="C:/Development/LockMonitorApplication/TestLockMonitor/bin/Debug/TestLockMonitor.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LockMonitorTest.TestLockDataReader, TestLockMonitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GoodCreation" />
+    </UnitTest>
+    <UnitTest name="BadFileName" storage="c:\development\lockmonitorapplication\testlockmonitor\bin\debug\testlockmonitor.dll" id="8d1d64f4-6f31-a099-4dbf-b5d74744bf0f">
+      <Execution id="8cf1b232-69b8-410a-8fb7-0a940a0ce4aa" />
+      <TestMethod codeBase="C:/Development/LockMonitorApplication/TestLockMonitor/bin/Debug/TestLockMonitor.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LockMonitorTest.TestLockDataReader, TestLockMonitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BadFileName" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1cd52872-dd42-9e15-6469-12b33a98b8a4" executionId="5dd9c28c-b85d-4f7b-a031-0c1dccb33d3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35ace910-8025-99a9-8947-1c3d75d0ca8a" executionId="b3845794-f5b9-4f08-ad56-3669f4dd8419" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36c4ab00-7fb7-bcc8-2846-ff4d0ed4fdc1" executionId="f3aa3810-25e8-41dd-b608-ef2e0ed55011" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e96d96a-a700-dd52-b892-bbd7a58b1925" executionId="1818d27f-1eb4-40f7-8805-72d1b5aabef5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d1d64f4-6f31-a099-4dbf-b5d74744bf0f" executionId="8cf1b232-69b8-410a-8fb7-0a940a0ce4aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e991c5a-6cd5-5579-8458-b7d0a59ae312" executionId="dae537b8-c9df-467f-b075-3ec82347613f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad6daafd-666b-f931-bd88-01f6da592743" executionId="99384135-b939-4052-be35-8dbd22ceb96b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5d08364-6d0f-e27e-49f1-d2ba9890e62f" executionId="19205791-06cc-4790-b650-96ba2c88c6ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca3d881e-3962-5e52-596b-35c621b0bb85" executionId="1ff2fe4d-0f8c-4af8-8788-f6ba02e1183f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2934c46-4261-cc8a-aa76-48d433869920" executionId="827804de-6240-4f5f-b99c-61b56a999e07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5dd9c28c-b85d-4f7b-a031-0c1dccb33d3c" testId="1cd52872-dd42-9e15-6469-12b33a98b8a4" testName="LockDataSetCorrectly" computerName="RM202-005909" duration="00:00:00.0084421" startTime="2015-09-21T15:25:24.5268995+01:00" endTime="2015-09-21T15:25:24.7158995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5dd9c28c-b85d-4f7b-a031-0c1dccb33d3c">
+    </UnitTestResult>
+    <UnitTestResult executionId="b3845794-f5b9-4f08-ad56-3669f4dd8419" testId="35ace910-8025-99a9-8947-1c3d75d0ca8a" testName="GoodCreation" computerName="RM202-005909" duration="00:00:00.0299458" startTime="2015-09-21T15:25:24.7168995+01:00" endTime="2015-09-21T15:25:24.7478995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3845794-f5b9-4f08-ad56-3669f4dd8419">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method LockMonitorTest.TestLockDataReader.GoodCreation threw exception: 
+System.IO.FileNotFoundException: Could not find file 'C:\Development\LockMonitorApplication\TestData.csv'.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at LockMonitorApplication.LockDataReader..ctor(String fileName) in C:\Development\LockMonitorApplication\LockMonitorApplication\LockDataReader.cs:line 20
+   at LockMonitorTest.TestLockDataReader.GoodCreation() in C:\Development\LockMonitorApplication\TestLockMonitor\TestLockDataReader.cs:line 15
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f3aa3810-25e8-41dd-b608-ef2e0ed55011" testId="36c4ab00-7fb7-bcc8-2846-ff4d0ed4fdc1" testName="LockDataCreatedCorrectly" computerName="RM202-005909" duration="00:00:00.0001431" startTime="2015-09-21T15:25:24.7488995+01:00" endTime="2015-09-21T15:25:24.7498995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3aa3810-25e8-41dd-b608-ef2e0ed55011">
+    </UnitTestResult>
+    <UnitTestResult executionId="1818d27f-1eb4-40f7-8805-72d1b5aabef5" testId="5e96d96a-a700-dd52-b892-bbd7a58b1925" testName="NoEventsCalled" computerName="RM202-005909" duration="00:00:00.1079837" startTime="2015-09-21T15:25:24.7508995+01:00" endTime="2015-09-21T15:25:24.8608995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1818d27f-1eb4-40f7-8805-72d1b5aabef5">
+    </UnitTestResult>
+    <UnitTestResult executionId="8cf1b232-69b8-410a-8fb7-0a940a0ce4aa" testId="8d1d64f4-6f31-a099-4dbf-b5d74744bf0f" testName="BadFileName" computerName="RM202-005909" duration="00:00:00.0003506" startTime="2015-09-21T15:25:24.8618995+01:00" endTime="2015-09-21T15:25:24.8628995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8cf1b232-69b8-410a-8fb7-0a940a0ce4aa">
+    </UnitTestResult>
+    <UnitTestResult executionId="dae537b8-c9df-467f-b075-3ec82347613f" testId="8e991c5a-6cd5-5579-8458-b7d0a59ae312" testName="BadUnconnectedFileName" computerName="RM202-005909" duration="00:00:00.0004056" startTime="2015-09-21T15:25:24.8638995+01:00" endTime="2015-09-21T15:25:24.8648995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dae537b8-c9df-467f-b075-3ec82347613f">
+    </UnitTestResult>
+    <UnitTestResult executionId="99384135-b939-4052-be35-8dbd22ceb96b" testId="ad6daafd-666b-f931-bd88-01f6da592743" testName="alarmTesterGoodCreation" computerName="RM202-005909" duration="00:00:00.0002748" startTime="2015-09-21T15:25:24.8658995+01:00" endTime="2015-09-21T15:25:24.8678995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99384135-b939-4052-be35-8dbd22ceb96b">
+    </UnitTestResult>
+    <UnitTestResult executionId="19205791-06cc-4790-b650-96ba2c88c6ea" testId="b5d08364-6d0f-e27e-49f1-d2ba9890e62f" testName="GoodUnconnectedCreation" computerName="RM202-005909" duration="00:00:00.0012567" startTime="2015-09-21T15:25:24.8678995+01:00" endTime="2015-09-21T15:25:24.8708995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19205791-06cc-4790-b650-96ba2c88c6ea">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method LockMonitorTest.TestLockDataReader.GoodUnconnectedCreation threw exception: 
+System.IO.FileNotFoundException: Could not find file 'C:\Development\LockMonitorApplication\TestData.csv'.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at LockMonitorApplication.LockDataReader.Connect(String fileName) in C:\Development\LockMonitorApplication\LockMonitorApplication\LockDataReader.cs:line 28
+   at LockMonitorTest.TestLockDataReader.GoodUnconnectedCreation() in C:\Development\LockMonitorApplication\TestLockMonitor\TestLockDataReader.cs:line 34
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1ff2fe4d-0f8c-4af8-8788-f6ba02e1183f" testId="ca3d881e-3962-5e52-596b-35c621b0bb85" testName="alarmInLimits" computerName="RM202-005909" duration="00:00:00.0001086" startTime="2015-09-21T15:25:24.8708995+01:00" endTime="2015-09-21T15:25:24.8728995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ff2fe4d-0f8c-4af8-8788-f6ba02e1183f">
+    </UnitTestResult>
+    <UnitTestResult executionId="827804de-6240-4f5f-b99c-61b56a999e07" testId="f2934c46-4261-cc8a-aa76-48d433869920" testName="OutsideLimits" computerName="RM202-005909" duration="00:00:00.0000977" startTime="2015-09-21T15:25:24.8728995+01:00" endTime="2015-09-21T15:25:24.8748995+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="827804de-6240-4f5f-b99c-61b56a999e07">
+    </UnitTestResult>
+  </Results>
+</TestRun>

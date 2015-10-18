@@ -1,0 +1,27 @@
+﻿<Window x:Class="LockMonitorApplication.LockView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="234" Width="311" xmlns:my="clr-namespace:LockMonitorApplication">
+    <Grid Height="196" Width="290">
+        <my:NumericUpDown Height="44" HorizontalAlignment="Left" Margin="178,12,0,0" x:Name="upDownUpperLevel" VerticalAlignment="Top" Width="103" />
+        <my:NumericUpDown Height="44" HorizontalAlignment="Left" Margin="178,112,0,0" x:Name="upDownFlowRate" VerticalAlignment="Top" Width="103" />
+        <my:NumericUpDown Height="44" HorizontalAlignment="Left" Margin="178,62,0,0" x:Name="upDownLowerLevel" VerticalAlignment="Top" Width="103" />
+        <Label Content="Upper level" Height="29" HorizontalAlignment="Left" Margin="12,12,0,0" Name="label1" VerticalAlignment="Top" Width="104" />
+        <Label Content="Flow rate" Height="29" HorizontalAlignment="Left" Margin="12,112,0,0" Name="label2" VerticalAlignment="Top" Width="104" ClipToBounds="False" />
+        <Label Content="Lower level" Height="29" HorizontalAlignment="Left" Margin="12,62,0,0" Name="label3" VerticalAlignment="Top" Width="104" ClipToBounds="False" />
+        <Label ClipToBounds="False" Content="0" Height="29" HorizontalAlignment="Left" Margin="122,12,0,0" Name="upperLevel" VerticalAlignment="Top" Width="50" />
+        <Label ClipToBounds="False" Content="0" Height="29" HorizontalAlignment="Left" Margin="122,112,0,0" Name="flowRate" VerticalAlignment="Top" Width="50" />
+        <Label ClipToBounds="False" Content="0" Height="29" HorizontalAlignment="Left" Margin="122,62,0,0" Name="lowerLevel" VerticalAlignment="Top" Width="49" />
+        <ComboBox Height="24" HorizontalAlignment="Left" Margin="178,164,0,0" Name="lockSelector" VerticalAlignment="Top" Width="104" SelectedValuePath="Content">
+            <ComboBoxItem Name="Alwalton" >Alwalton</ComboBoxItem>
+            <ComboBoxItem Name="WaterNewton" >Water Newton</ComboBoxItem>
+            <ComboBoxItem Name="Wantsford" >Wantsford</ComboBoxItem>
+            <ComboBoxItem Name="Yarwell" >Yarwell</ComboBoxItem>
+            <ComboBoxItem Name="Elton" >Elton</ComboBoxItem>
+            <ComboBoxItem Name="Warmington" >Warmington</ComboBoxItem>
+            <ComboBoxItem Name="Perio" >Perio</ComboBoxItem>
+            <ComboBoxItem Name="Cotterstock" >Cotterstock</ComboBoxItem>
+        </ComboBox>
+        <CheckBox Content="Mute alarm" Height="26" HorizontalAlignment="Left" Margin="12,162,0,0" Name="alarmMuter" VerticalAlignment="Top" Width="104" />
+    </Grid>
+</Window>
